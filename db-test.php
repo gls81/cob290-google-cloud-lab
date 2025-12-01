@@ -1,9 +1,9 @@
 <?php
-echo "COB290 Lab Test Database Connection";
+echo "COB290 Lab Test Database Connection\n";
 
 $servername = "localhost";
 $username = "lab";
-$password = "password";
+$password = "password123";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
